@@ -18,6 +18,10 @@ Github: https://github.com/mariosknl
 Twitter: @MariosKnl
 Linkedln: https://www.linkedin.com/in/marios-kanellopoulos-a99332181/
 
+👤 Sergio Perdomo
+Github: https://github.com/sddoe
+Linkedln: https://www.linkedin.com/in/sergio-david-perdomo-rivera-07b6b7b8/
+
 Show your support
 Give a ⭐️ if you like this project!
 
