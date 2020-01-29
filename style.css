@@ -108,7 +108,7 @@ main {
 
 .smashing-tv-container {
   width: 100%;
-  height: 550px;
+  height: 620px;
   background-color: gray;
   color: #fff;
   border: 1px solid black;
@@ -143,6 +143,7 @@ main {
   text-align: center;
   font-size: 5rem;
   padding: 35rem 0;
+  margin-bottom: 10px;
 }
 
 .community-links-container {
@@ -151,6 +152,7 @@ main {
   background-color: gray;
   color: #fff;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .person-week {
@@ -182,7 +184,7 @@ main {
 
 .community-links-container .twitter-link {
   width: 100%;
-  height: 10%;
+  height: 4%;
   font-size: 4.2rem;
   background-color: lightgray;
   border: 1px solid black;
@@ -202,11 +204,12 @@ main {
   text-align: center;
   padding: 22rem 0;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .curated-posts-container {
   width: 100%;
-  height: 2520px;
+  height: 2600px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 1fr);
@@ -249,6 +252,7 @@ main {
   background-color: gray;
   text-align: center;
   display: inline-block;
+  margin-top: 10px;
 }
 
 .footer-container .footer-up {
