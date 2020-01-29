@@ -7,6 +7,7 @@
 
 header nav {
   width: 100%;
+  margin-bottom: 5px;
 }
 
 header nav ul {
@@ -49,6 +50,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
+  margin-bottom: 5px;
 }
 
 .container-articles h1 {
@@ -76,6 +78,7 @@ main {
   height: 392px;
   background-color: gray;
   border: 1px solid black;
+  margin-bottom: 5px;
 }
 
 .membership-container p {
@@ -92,6 +95,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(4, 25%);
+  margin-bottom: 5px;
 }
 
 .more-articles-container div {
@@ -104,11 +108,12 @@ main {
 
 .smashing-tv-container {
   width: 100%;
-  height: 564px;
+  height: 550px;
   background-color: gray;
   color: #fff;
   border: 1px solid black;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .smashing-tv-container p {
@@ -121,6 +126,7 @@ main {
 .smashing-tv-container .latest {
   font-size: 4.2rem;
   border-top: 1px solid black;
+  background-color: gray;
 }
 
 .smashing-tv-container .latest a {
@@ -257,4 +263,21 @@ main {
   height: 45%;
   padding: 12rem 0;
   border: 1px solid black;
+}
+
+@media only screen and (max-width: 1024px) {
+  header nav button {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+  }
+  .container-articles h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+
+  .footer-container {
+    height: 550px;
+  }
 }
