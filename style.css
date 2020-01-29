@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+}
+
+header nav ul li {
+  width: 100%;
+  height: 10.2rem;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.1rem;
+  border: 1px solid black;
+  list-style: none;
+  text-align: center;
+  padding: 3.5rem 0rem;
+}
+
+header nav button {
+  font-size: 2rem;
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  border-radius: 3px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-articles {
+  background-color: gray;
+  width: 100%;
+  height: 1411px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+.container-articles h1 {
+  position: absolute;
+  top: 15%;
+  left: 38%;
+  font-size: 3rem;
+  background-color: #fff;
+}
+
+.container-articles article {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 3rem;
+  padding: 30rem 0rem;
+  color: #fff;
+}
+
+.cover {
+  width: 100%;
+}
+
+.membership-container {
+  width: 100%;
+  height: 392px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.membership-container p {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  padding: 18rem 0rem;
+}
