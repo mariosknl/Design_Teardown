@@ -32,7 +32,7 @@ header nav ul li {
 header nav button {
   font-size: 2rem;
   position: absolute;
-  top: 12%;
+  top: 25%;
   right: 5%;
   border-radius: 3px;
 }
@@ -55,7 +55,7 @@ main {
 
 .container-articles h1 {
   position: absolute;
-  top: 15%;
+  top: 30%;
   left: 38%;
   font-size: 3rem;
   background-color: #fff;
@@ -98,7 +98,7 @@ main {
   margin-bottom: 5px;
 }
 
-.more-articles-container div {
+.more-articles-container article {
   border: 1px solid black;
   font-size: 5rem;
   text-align: center;
@@ -260,6 +260,28 @@ main {
   height: 55%;
   padding: 12rem 0;
   border: 1px solid black;
+  color: white;
+}
+
+.footer-container .footer-up ul{
+  display: flex;
+  font-size: 7rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-container .footer-up ul li {
+  padding-right: 15px;
+}
+
+.footer-container .footer-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-container .footer-up a:hover {
+  color: black;
 }
 
 .footer-container .footer-bottom {
@@ -267,6 +289,22 @@ main {
   height: 45%;
   padding: 12rem 0;
   border: 1px solid black;
+}
+
+.footer-container .footer-bottom ul {
+  display: flex;
+  font-size: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-container .footer-bottom ul li {
+  padding-right: 15px;
+}
+
+.footer-container .footer-bottom a {
+  color: white;
 }
 
 @media only screen and (max-width: 1024px) {
