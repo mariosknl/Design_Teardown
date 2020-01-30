@@ -263,7 +263,7 @@ main {
   color: white;
 }
 
-.footer-container .footer-up ul{
+.footer-container .footer-up ul {
   display: flex;
   font-size: 7rem;
   justify-content: center;
@@ -277,6 +277,10 @@ main {
 
 .footer-container .footer-up a {
   text-decoration: none;
+  color: white;
+}
+
+.footer-container .footer-bottom a {
   color: white;
 }
 
@@ -301,10 +305,6 @@ main {
 
 .footer-container .footer-bottom ul li {
   padding-right: 15px;
-}
-
-.footer-container .footer-bottom a {
-  color: white;
 }
 
 @media only screen and (max-width: 1024px) {
